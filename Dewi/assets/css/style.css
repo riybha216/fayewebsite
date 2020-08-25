@@ -45,13 +45,13 @@ h1, h2, h3, h4, h5, h6 {
   width: 40px;
   height: 40px;
   border-radius: 4px;
-  background: #ff4a17;
+  background: #9932cc;
   color: #fff;
   transition: all 0.4s;
 }
 
 .back-to-top i:hover {
-  background: #ff5e31;
+  background: #9932cc;
   color: #fff;
 }
 
@@ -948,45 +948,45 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Services
+# Get Involved
 --------------------------------------------------------------*/
-.getinvolved .icon-box {
+.get-involved .icon-box {
   margin-bottom: 20px;
   padding: 30px;
   border-radius: 6px;
   background: #fff;
 }
 
-.getinvolved .icon-box i {
+.get-involved .icon-box i {
   float: left;
-  color: #5c8eb0;
+  color: #9932cc;
   font-size: 40px;
 }
 
-.getinvolved .icon-box h4 {
+.get-involved .icon-box h4 {
   margin-left: 70px;
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
 }
 
-.getinvolved .icon-box h4 a {
-  color: #365870;
+.get-involved .icon-box h4 a {
+  color: #dda0dd;
   transition: 0.3s;
 }
 
-.services .icon-box .icon-box:hover h4 a {
-  color: #ff4a17;
+.get-involved .icon-box .icon-box:hover h4 a {
+  color: #9932cc;
 }
 
-.getinvolved .icon-box p {
+.get-involved .icon-box p {
   margin-left: 70px;
   line-height: 24px;
   font-size: 14px;
 }
 
-.getinvolved .icon-box:hover h4 a {
-  color: #ff4a17;
+.get-involved .icon-box:hover h4 a {
+  color: #9932cc;
 }
 
 /*--------------------------------------------------------------
@@ -1189,27 +1189,27 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Team
+# General Team
 --------------------------------------------------------------*/
-.team {
+.generalteam {
   position: relative;
 }
 
-.team .container {
+.generalteam .container {
   position: relative;
   z-index: 10;
 }
 
-.team .member {
+.generalteam .member {
   margin-bottom: 80px;
   position: relative;
 }
 
-.team .member .pic {
+.generalteam .member .pic {
   overflow: hidden;
 }
 
-.team .member .member-info {
+.generalteam .member .member-info {
   position: absolute;
   bottom: -50px;
   left: 20px;
@@ -1222,48 +1222,48 @@ section {
   transition: 0.5s;
 }
 
-.team .member h4 {
+.generalteam .member h4 {
   font-weight: 700;
   margin-bottom: 10px;
   font-size: 16px;
-  color: #15222b;
+  color: #4E2854;
   position: relative;
   padding-bottom: 10px;
 }
 
-.team .member h4::after {
+.generalteam .member h4::after {
   content: '';
   position: absolute;
   display: block;
   width: 50px;
   height: 1px;
-  background: #7fa5c0;
+  background: #e6e6fa;
   bottom: 0;
   left: 0;
 }
 
-.team .member span {
+.generalteam .member span {
   font-style: italic;
   display: block;
   font-size: 13px;
 }
 
-.team .member .social {
+.generalteam .member .social {
   position: absolute;
   right: 15px;
   bottom: 15px;
 }
 
-.team .member .social a {
+.generalteam .member .social a {
   transition: color 0.3s;
-  color: #477392;
+  color: #000;
 }
 
-.team .member .social a:hover {
-  color: #ff4a17;
+.generalteam .member .social a:hover {
+  color: #9932cc;
 }
 
-.team .member .social i {
+.generalteam .member .social i {
   font-size: 16px;
   margin: 0 2px;
 }
