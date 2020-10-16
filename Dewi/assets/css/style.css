@@ -948,6 +948,59 @@ section {
 }
 
 /*--------------------------------------------------------------
+# Past Events
+--------------------------------------------------------------*/
+
+.PE-container{
+  height: auto;
+  width: 1000px;
+  margin: 50px;
+  margin-top: 50px;
+  border: 1px solid black;
+}
+
+.PE-box{
+  height: 800px;;
+  width: 450px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin: 20px;
+  padding: 30px;
+  border: 1px solid black;
+  float: right;
+  background-color: #bdaccc;
+}
+#past-event-heading{
+  color:black;
+}
+.PE-header{
+  font-weight: bold;
+  color: black;
+}
+.whole-page{
+  text-align: center;
+  background-color: #9189e7;/*#793e7e*/
+}
+.PE-img{
+  width: 300px;
+  text-align: center;
+  height: 300px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.learn-button{
+  display: inline-block;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #7aa8b7;
+  border-radius: 6px;
+  outline: none;
+  margin-top: 15px;
+}
+
+/*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
 .getinvolved .icon-box {
