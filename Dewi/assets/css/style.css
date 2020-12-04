@@ -545,7 +545,7 @@ section {
   margin: 0 0 5px 0;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #5c8eb0;
+  color: #bdaccc;
   font-family: "Poppins", sans-serif;
 }
 
@@ -554,7 +554,7 @@ section {
   width: 120px;
   height: 1px;
   display: inline-block;
-  background: #ff8664;
+  background: #000000;
   margin: 4px 10px;
 }
 
@@ -565,7 +565,7 @@ section {
   font-weight: 700;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #263d4d;
+  color: #9932cc;
 }
 
 /*--------------------------------------------------------------
