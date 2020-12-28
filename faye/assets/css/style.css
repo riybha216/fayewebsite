@@ -51,13 +51,23 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .back-to-top i:hover {
-  background: #ff5e31;
+  background: mediumpurple;
   color: #fff;
 }
 
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
+
+.tab-content.hide{
+    display: none;
+}
+
+.tab-content.active{
+    display: block;
+}
+
+
 #preloader {
   position: fixed;
   top: 0;
@@ -530,7 +540,7 @@ section {
 }
 
 .section-bg {
-  background-color: #f0f4f8;
+  background-color: white;
 }
 
 .section-title {
@@ -1003,27 +1013,27 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
-.getinvolved .icon-box {
+.services .icon-box {
   margin-bottom: 20px;
   padding: 30px;
   border-radius: 6px;
-  background: #fff;
+  background: #E9E3EE;
 }
 
-.getinvolved .icon-box i {
+.services .icon-box i {
   float: left;
   color: #5c8eb0;
   font-size: 40px;
 }
 
-.getinvolved .icon-box h4 {
+.services .icon-box h4 {
   margin-left: 70px;
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
 }
 
-.getinvolved .icon-box h4 a {
+.services .icon-box h4 a {
   color: #365870;
   transition: 0.3s;
 }
@@ -1032,13 +1042,13 @@ section {
   color: mediumpurple;
 }
 
-.getinvolved .icon-box p {
+.services .icon-box p {
   margin-left: 70px;
   line-height: 24px;
   font-size: 14px;
 }
 
-.getinvolved .icon-box:hover h4 a {
+.services .icon-box:hover h4 a {
   color: mediumpurple;
 }
 
@@ -1748,3 +1758,4 @@ section {
 #footer .credits a {
   transition: 0.3s;
 }
+
