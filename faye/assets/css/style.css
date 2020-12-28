@@ -1022,7 +1022,7 @@ section {
 
 .services .icon-box i {
   float: left;
-  color: #5c8eb0;
+  color: #7C51A0;
   font-size: 40px;
 }
 
@@ -1034,7 +1034,7 @@ section {
 }
 
 .services .icon-box h4 a {
-  color: #365870;
+  color: #5E2E87;
   transition: 0.3s;
 }
 
@@ -1051,6 +1051,7 @@ section {
 .services .icon-box:hover h4 a {
   color: mediumpurple;
 }
+
 
 /*--------------------------------------------------------------
 # Testimonials
