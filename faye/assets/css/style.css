@@ -18,7 +18,7 @@ a {
 }
 
 a:hover {
-  color: mediumpurple;
+  color: #ff724a;
   text-decoration: none;
 }
 
@@ -51,23 +51,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .back-to-top i:hover {
-  background: mediumpurple;
+  background: #ff5e31;
   color: #fff;
 }
 
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
-
-.tab-content.hide{
-    display: none;
-}
-
-.tab-content.active{
-    display: block;
-}
-
-
 #preloader {
   position: fixed;
   top: 0;
@@ -427,7 +417,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("CompleteBanner.png") top center;
+  background: url("/Dewi/CompleteBanner.png") top center;
   background-size: cover;
   position: relative;
   padding: 0;
@@ -540,7 +530,7 @@ section {
 }
 
 .section-bg {
-  background-color: white;
+  background-color: #f0f4f8;
 }
 
 .section-title {
@@ -555,7 +545,7 @@ section {
   margin: 0 0 5px 0;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #bdaccc;
+  color: #5c8eb0;
   font-family: "Poppins", sans-serif;
 }
 
@@ -564,7 +554,7 @@ section {
   width: 120px;
   height: 1px;
   display: inline-block;
-  background: #000000;
+  background: #ff8664;
   margin: 4px 10px;
 }
 
@@ -575,7 +565,7 @@ section {
   font-weight: 700;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: black;
+  color: #263d4d;
 }
 
 /*--------------------------------------------------------------
@@ -956,7 +946,64 @@ section {
 .features .tab-pane p:last-child {
   margin-bottom: 0;
 }
+/*--------------------------------------------------------------
+# Mission San Jose Chapter
+--------------------------------------------------------------*/
+.msj-box{
+  margin: 30px;
+  border: 10px solid black;
+  height: auto;
+  width: 1000px;
+  background-color:#d8bfd8;
+    float:left;
+    padding: 30px;
+}
 
+#cdc-head{
+    text-decoration: underline;
+}
+
+.msj-container{
+  margin: 10px;
+  border: 10px;
+  border-color: black;
+  height: auto;
+  width: 1000px;
+  text-align: center;
+}
+
+.backwhite{
+    background-color: white;
+}
+
+#overwhite{
+    background-color:white;
+}
+
+.msjteam{
+    border: 5px solid black;
+    width:300px;
+    margin:20px;
+    display:table-cell;
+    padding: 15px;
+}
+
+#msj-tophead{
+    font-size:50px;
+}
+
+.msj-heading{
+    font-weight:bold;
+    font-size: 36px;
+}
+
+.msj-pic{
+    margin: 20px;
+}
+
+#msj-ourteam{
+    display:table;
+}
 /*--------------------------------------------------------------
 # Past Events
 --------------------------------------------------------------*/
@@ -978,7 +1025,7 @@ section {
   padding: 30px;
   border: 1px solid black;
   float: right;
-  background-color: #F0E7F7;
+  background-color: #bdaccc;
 }
 #past-event-heading{
   color:black;
@@ -989,7 +1036,7 @@ section {
 }
 .whole-page{
   text-align: center;
-  background-color: white;/*#793e7e*/
+  background-color: #9189e7;/*#793e7e*/
 }
 .PE-img{
   width: 300px;
@@ -1004,7 +1051,7 @@ section {
   text-align: center;
   text-decoration: none;
   color: #ffffff;
-  background-color: rebeccapurple;
+  background-color: #7aa8b7;
   border-radius: 6px;
   outline: none;
   margin-top: 15px;
@@ -1013,28 +1060,28 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
-.services .icon-box {
+.getinvolved .icon-box {
   margin-bottom: 20px;
   padding: 30px;
   border-radius: 6px;
-  background: #E9E3EE;
+  background: #fff;
 }
 
-.services .icon-box i {
+.getinvolved .icon-box i {
   float: left;
-  color: #7C51A0;
+  color: #5c8eb0;
   font-size: 40px;
 }
 
-.services .icon-box h4 {
+.getinvolved .icon-box h4 {
   margin-left: 70px;
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
 }
 
-.services .icon-box h4 a {
-  color: #5E2E87;
+.getinvolved .icon-box h4 a {
+  color: #365870;
   transition: 0.3s;
 }
 
@@ -1042,16 +1089,15 @@ section {
   color: mediumpurple;
 }
 
-.services .icon-box p {
+.getinvolved .icon-box p {
   margin-left: 70px;
   line-height: 24px;
   font-size: 14px;
 }
 
-.services .icon-box:hover h4 a {
+.getinvolved .icon-box:hover h4 a {
   color: mediumpurple;
 }
-
 
 /*--------------------------------------------------------------
 # Testimonials
@@ -1759,4 +1805,3 @@ section {
 #footer .credits a {
   transition: 0.3s;
 }
-
