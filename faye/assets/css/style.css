@@ -999,6 +999,8 @@ section {
 
 .msj-pic{
     margin: 20px;
+    width: 500px;
+    height: auto;
 }
 
 #msj-ourteam{
