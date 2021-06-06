@@ -1015,8 +1015,27 @@ section {
     width: 300px;
     height: auto;
 }
+
 #msj-ourteam{
     display:table;
+}
+
+.msj-button{
+  margin-left: 25px;
+  color: rgb(115, 35, 126);
+  border-radius: 4px;
+  padding: 8px 25px;
+  white-space: nowrap;
+  transition: 0.3s;
+  font-size: 20px;
+  display: inline-block;
+  border: 2px solid #fff;
+}
+
+.msj-button:hover{
+  background: #a895aa;
+  color: #fff;
+  border-color: rgb(115, 35, 126);
 }
 /*--------------------------------------------------------------
 # Past Events
