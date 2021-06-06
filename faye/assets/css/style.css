@@ -955,10 +955,18 @@ section {
   height: auto;
   width: 1000px;
   background-color:#d8bfd8;
-    float:left;
-    padding: 30px;
+  float:left;
+  padding: 30px;
 }
 
+.msj-box-team{
+  margin: 30px;
+  height: auto;
+  width: 1000px;
+  float: left;
+  padding: 30px;
+  
+}
 #event-head{
     text-decoration: underline;
 }
@@ -1003,6 +1011,10 @@ section {
     height: auto;
 }
 
+.msj-logo{
+    width: 300px;
+    height: auto;
+}
 #msj-ourteam{
     display:table;
 }
