@@ -953,7 +953,7 @@ section {
   margin: 30px;
   border: 10px solid black;
   height: auto;
-  width: 1000px;
+  width: 1100px;
   background-color:#d8bfd8;
   float:left;
   padding: 30px;
@@ -962,7 +962,7 @@ section {
 .msj-box-team{
   margin: 30px;
   height: auto;
-  width: 1000px;
+  width: 1100px;
   float: left;
   padding: 30px;
   
@@ -976,7 +976,7 @@ section {
   border: 10px;
   border-color: black;
   height: auto;
-  width: 1000px;
+  width: 1100px;
   text-align: center;
 }
 
@@ -990,10 +990,11 @@ section {
 
 .msjteam{
     border: 5px solid black;
-    width:300px;
-    margin:20px;
+    width:200px;
+    margin:30px;
     display:table-cell;
-    padding: 15px;
+    padding:15px;
+    padding-bottom: 15px;
 }
 
 #msj-tophead{
@@ -1003,11 +1004,15 @@ section {
 .msj-heading{
     font-weight:bold;
     font-size: 36px;
+    padding: 10px;
 }
 
+.pic{
+  margin-bottom: 20px;
+}
 .msj-pic{
     margin: 20px;
-    width: 500px;
+    width: 400px;
     height: auto;
 }
 
@@ -1016,8 +1021,13 @@ section {
     height: auto;
 }
 
+.col-lg-4 col-md-6{
+  align-items: center;
+  margin: 0 auto;
+}
 #msj-ourteam{
     display:table;
+    width: fit-content;
 }
 
 .msj-button{
