@@ -950,34 +950,34 @@ section {
 # Mission San Jose Chapter
 --------------------------------------------------------------*/
 .msj-box{
-  margin: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   border: 10px solid black;
   height: auto;
-  width: 1100px;
+  width: 100%;
   background-color:#d8bfd8;
-  float:left;
+  /* float:left; */
   padding: 30px;
 }
 
 .msj-box-team{
-  margin: 30px;
+  /* margin: 30px; */
   height: auto;
-  width: 1100px;
-  float: left;
-  padding: 30px;
-  
+  width: 100%;
+  /* float: left; */
+  /* padding: 30px; */
 }
+
 #event-head{
     text-decoration: underline;
 }
 
 .msj-container{
-  margin: 10px;
-  border: 10px;
-  border-color: black;
+  /* margin: 10px; */
+  /* border: 10px;
+  border-color: black; */
   height: auto;
-  width: 1100px;
-  text-align: center;
+  width: 100%;
 }
 
 .backwhite{
@@ -1010,10 +1010,19 @@ section {
 .pic{
   margin-bottom: 20px;
 }
+
 .msj-pic{
     margin: 20px;
     width: 400px;
     height: auto;
+}
+
+.generalteam{
+  justify-content: center;
+}
+
+.msjrow{
+  justify-content: center;
 }
 
 .msj-logo{
@@ -1021,13 +1030,13 @@ section {
     height: auto;
 }
 
-.col-lg-4 col-md-6{
-  align-items: center;
-  margin: 0 auto;
+.section-titles{
+  width:100%;
 }
+
 #msj-ourteam{
     display:table;
-    width: fit-content;
+    width: 100%;
 }
 
 .msj-button{
